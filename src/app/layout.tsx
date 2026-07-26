@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Addyson Campbell | Chemical Engineer",
-  description: "Chemical engineering portfolio focused on process design, optimization, and safety.",
+  description: "Texas A&M chemical engineering student with experience in plant engineering, process optimization, power generation, and R&D.",
 };
 
 export default function RootLayout({

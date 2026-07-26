@@ -5,7 +5,7 @@ import { ProcessGraphic } from "@/components/process-graphic";
 import { SiteHeader } from "@/components/site-header";
 
 export default function Home() {
-  const { profile, items, metrics, skills } = data;
+  const { profile, items, metrics, skills, leadership, credentials } = data;
   return <>
     <SiteHeader />
     <main>
@@ -31,7 +31,7 @@ export default function Home() {
 
       <section className="about section" id="about">
         <div className="about-intro"><p className="kicker">ABOUT ME</p><h2>Curious by nature.<br/><em>Rigorous by training.</em></h2></div>
-        <div className="about-copy"><p>{profile.about}</p><div className="education"><span>{profile.graduation}</span><div><strong>{profile.education}</strong><small>{profile.school}</small></div></div></div>
+        <div className="about-copy"><p>{profile.about}</p><div className="education"><span>{profile.graduation}</span><div><strong>{profile.education}</strong><small>{profile.school}</small><small>{profile.educationDetails}</small></div></div></div>
       </section>
 
       <section className="metrics">{metrics.map(metric=><div key={metric.label}><strong>{metric.value}</strong><span>{metric.label}</span></div>)}</section>
@@ -41,8 +41,13 @@ export default function Home() {
         <div className="skill-grid">{skills.map((skill,index)=><div className="skill-card" key={skill.group}><span className="skill-icon"><Icon name={["flask","chart","shield"][index]}/></span><h3>{skill.group}</h3><ul>{skill.items.map(item=><li key={item}>{item}</li>)}</ul></div>)}</div>
       </section>
 
-      <section className="contact"><p className="kicker">LET’S BUILD SOMETHING BETTER</p><h2>Have an engineering challenge<br/>worth solving?</h2><a href={`mailto:${profile.email}`}>{profile.email} <Icon name="arrow"/></a></section>
+      <section className="credentials section">
+        <div className="leadership-block"><p className="kicker">LEADERSHIP</p><h2>Leading on the field<br/>and <em>across campus.</em></h2>{leadership.map(item=><div className="leadership-row" key={item.organization}><strong>{item.role}</strong><span>{item.organization}</span></div>)}</div>
+        <div className="credential-block"><p className="kicker">CERTIFICATIONS & AWARDS</p><div className="credential-list">{credentials.map(item=><span key={item}>{item}</span>)}</div></div>
+      </section>
+
+      <section className="contact"><p className="kicker">AVAILABLE SUMMER 2027</p><h2>Let’s solve an engineering<br/>challenge together.</h2><div className="contact-links"><a href={`mailto:${profile.email}`}>{profile.email} <Icon name="arrow"/></a><a href={`tel:${profile.phoneLink}`}>{profile.phone}</a></div></section>
     </main>
-    <footer><div className="brand"><span className="brand-mark">{profile.initials}</span><span><strong>{profile.name}</strong><small>Chemical Engineer</small></span></div><p>Designed with precision. Built with purpose.</p><div><a href={profile.linkedin}>LinkedIn <Icon name="external" size={14}/></a><a href={`mailto:${profile.email}`}>Email</a></div></footer>
+    <footer><div className="brand"><span className="brand-mark">{profile.initials}</span><span><strong>{profile.name}</strong><small>Chemical Engineering Student</small></span></div><p>Designed with precision. Built with purpose.</p><div><a href={profile.linkedin}>LinkedIn <Icon name="external" size={14}/></a><a href={`mailto:${profile.email}`}>Email</a></div></footer>
   </>;
 }
