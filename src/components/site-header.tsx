@@ -9,7 +9,7 @@ export function SiteHeader() {
     </Link>
     <nav aria-label="Main navigation">
       <Link href="/#work">Work</Link><Link href="/#about">About</Link><Link href="/#skills">Skills</Link>
-      <a className="nav-cta" href={`mailto:${data.profile.email}`}>Let’s talk</a>
+      <Link className="nav-cta" href="/contact">Let’s talk</Link>
     </nav>
   </header>;
 }
