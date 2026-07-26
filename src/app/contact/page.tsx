@@ -36,7 +36,7 @@ export default function ContactPage() {
           </a>
           <a className="contact-detail" href={profile.linkedin} target="_blank" rel="noreferrer">
             <span className="contact-detail-icon"><Icon name="linkedin" size={22} /></span>
-            <span><small>LINKEDIN</small><strong>Connect with me</strong></span>
+            <span><small>LINKEDIN</small><strong>addysoncampbell4</strong></span>
             <Icon name="external" />
           </a>
         </div>
