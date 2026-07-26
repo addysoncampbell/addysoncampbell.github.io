@@ -21,7 +21,7 @@ export default function Home() {
       </section>
 
       <section className="work section" id="work">
-        <div className="section-heading"><div><p className="kicker">SELECTED WORK</p><h2>From problem to <em>measurable impact.</em></h2></div><p>A selection of projects and experiences that show how I approach engineering challenges.</p></div>
+        <div className="section-heading"><div><p className="kicker">SELECTED WORK</p><h2>From the problem to <em>measurable impact.</em></h2></div><p>A selection of projects and experiences that show how I approach engineering challenges.</p></div>
         <div className="work-grid">{items.map((item) => <Link href={`/work/${item.slug}`} className={`work-card ${item.accent}`} key={item.slug}>
           <div className="card-top"><span>{item.number}</span><span>{item.type} · {item.year}</span></div>
           <div className="card-symbol">{item.number === "01" ? "⌁" : item.number === "02" ? "≈" : item.number === "03" ? "△" : "⌗"}</div>
