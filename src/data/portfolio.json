@@ -1,0 +1,102 @@
+{
+  "profile": {
+    "name": "Addyson Campbell",
+    "initials": "AC",
+    "eyebrow": "Chemical Engineering · Texas A&M",
+    "headline": "Engineering safer, smarter processes.",
+    "intro": "I’m a Chemical Engineering student with hands-on experience across power generation, plant engineering, process optimization, and R&D. I use data, experiments, and engineering fundamentals to solve practical operating problems.",
+    "location": "College Station, Texas",
+    "availability": "Seeking full-time roles beginning Summer 2027",
+    "email": "addyson2003@tamu.edu",
+    "phone": "(903) 258-4549",
+    "phoneLink": "+19032584549",
+    "linkedin": "https://www.linkedin.com/in/addysoncampbell4",
+    "about": "My experience spans condenser performance in coal power generation, pilot-scale product development, papermaking process optimization, and construction materials testing. I’m especially interested in R&D, process, production, and plant engineering roles where disciplined analysis can improve safety, reliability, and performance.",
+    "education": "B.S. Chemical Engineering",
+    "school": "Texas A&M University · Engineering Honors",
+    "educationDetails": "Minors in Safety Engineering & Anthropology",
+    "graduation": "Expected May 2027"
+  },
+  "metrics": [
+    { "value": "3", "label": "Generating units evaluated" },
+    { "value": "12 mo.", "label": "Operating data analyzed" },
+    { "value": "4", "label": "Engineering environments" }
+  ],
+  "skills": [
+    { "group": "Process & reliability", "items": ["HEI condenser performance", "Heat exchangers & cooling water", "Root cause analysis", "Process optimization", "P&IDs"] },
+    { "group": "Data & design", "items": ["AVEVA PI Vision", "Design of Experiments", "Statistical analysis", "Excel macros", "Python & MATLAB"] },
+    { "group": "Safety & communication", "items": ["HAZOP & LOPA", "Process safety", "Technical writing", "FDA & OSHA compliance", "Cross-functional collaboration"] }
+  ],
+  "leadership": [
+    { "role": "Treasurer & Captain", "organization": "Texas A&M Women’s Rugby Club" },
+    { "role": "Council Member", "organization": "Student Government · Library Council & Good Bull Fund Council" },
+    { "role": "Member", "organization": "AIChE · Daughters of the American Revolution · SLIDE" }
+  ],
+  "credentials": ["Process Safety Engineering", "Google AI Fundamentals", "Google AI Data Analytics", "Google AI Research", "CPR/AED", "Engineering Honors", "Presidential Scholar", "Valedictorian", "Earl Campbell Tyler Rose Athlete Award"],
+  "items": [
+    {
+      "slug": "lcra-condenser-performance",
+      "type": "Plant Engineering",
+      "number": "01",
+      "title": "Condenser Performance & Reliability",
+      "summary": "Evaluating condenser cleanliness, thermal efficiency losses, and suspected heat exchanger leakage across three coal power generating units.",
+      "context": "Plant Engineer Intern · Lower Colorado River Authority",
+      "year": "May 2026–Present · Fayetteville, TX",
+      "accent": "teal",
+      "tags": ["HEI", "AVEVA PI Vision", "Heat exchangers"],
+      "challenge": "Condenser condition directly affects generating-unit efficiency and reliability. The work required distinguishing performance losses and possible leakage mechanisms using a full year of plant operating and chemistry data.",
+      "approach": ["Built custom Excel models to perform HEI condenser performance evaluations for three coal power generating units.", "Analyzed 12 months of operating and chemistry data using AVEVA PI Vision, SharePoint, Hanara, and P&IDs.", "Investigated conductivity, chloride, copper, dissolved oxygen, hydrogen, scaling, fouling, and corrosion trends related to suspected heat exchanger leakage."],
+      "outcome": "Authored engineering reports and presented data-backed recommendations intended to improve condenser performance and plant reliability.",
+      "result": "3 units",
+      "resultLabel": "evaluated using HEI methods"
+    },
+    {
+      "slug": "altria-pilot-scale-rd",
+      "type": "R&D / Process Design",
+      "number": "02",
+      "title": "Pilot-Scale Product Development",
+      "summary": "Developed and optimized oral nicotine formulations through experimental design, product testing, process evaluation, and competitive benchmarking.",
+      "context": "R&D / Process Design Engineer Intern · Altria",
+      "year": "Summer 2024 & 2025 · Richmond, VA",
+      "accent": "blue",
+      "tags": ["DOE", "Statistical analysis", "Excel macros"],
+      "challenge": "Pilot-scale formulation development required balancing product performance, manufacturability, experimental rigor, and regulatory expectations.",
+      "approach": ["Designed DOE studies and used statistical analysis to optimize pilot-scale formulations.", "Reverse engineered competitor products to benchmark formulations and identify product innovation opportunities.", "Developed Excel macros to automate engineering calculations and improve analysis efficiency."],
+      "outcome": "Advanced formulation and process-development work in collaboration with multidisciplinary teams while maintaining FDA and OSHA compliance.",
+      "result": "2 summers",
+      "resultLabel": "of pilot-scale R&D experience"
+    },
+    {
+      "slug": "pca-process-optimization",
+      "type": "Process Engineering",
+      "number": "03",
+      "title": "Papermaking Process Optimization",
+      "summary": "Applied data analysis, process troubleshooting, and automation to support quality, uptime, and reliability in papermaking operations.",
+      "context": "Process Engineer Co-op · Packaging Corporation of America",
+      "year": "Dec 2023–May 2024 · Counce, TN",
+      "accent": "amber",
+      "tags": ["Process optimization", "Excel macros", "Reliability"],
+      "challenge": "Papermaking operations required timely troubleshooting and clear use of process data to address downtime and product-quality issues.",
+      "approach": ["Analyzed operating data to identify process trends and support troubleshooting.", "Created Excel macros to make recurring analysis faster and more consistent.", "Worked with operations, maintenance, and safety teams to develop practical reliability improvements."],
+      "outcome": "Supported data-driven process changes focused on reducing downtime, improving product quality, and strengthening operating reliability.",
+      "result": "3 teams",
+      "resultLabel": "operations, maintenance & safety"
+    },
+    {
+      "slug": "txdot-materials-testing",
+      "type": "Lab & Safety",
+      "number": "04",
+      "title": "Construction Materials Testing",
+      "summary": "Performed standards-based asphalt and concrete testing and translated field observations into clear technical documentation.",
+      "context": "Lab & Safety Engineer Assistant · Texas Department of Transportation",
+      "year": "May–Aug 2023 · Tyler, TX",
+      "accent": "navy",
+      "tags": ["ASTM testing", "Field inspection", "Technical documentation"],
+      "challenge": "Roadway materials and construction work needed consistent verification against engineering plans and recognized testing standards.",
+      "approach": ["Performed asphalt and concrete testing in accordance with ASTM standards.", "Inspected roadway construction activities and reviewed engineering plans.", "Recorded test results, field conditions, and technical findings for engineering review."],
+      "outcome": "Helped provide reliable materials data and field documentation to support roadway construction quality and safety.",
+      "result": "ASTM",
+      "resultLabel": "standards-based testing"
+    }
+  ]
+}
