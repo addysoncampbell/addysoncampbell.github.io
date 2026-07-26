@@ -1,0 +1,94 @@
+{
+  "profile": {
+    "name": "Addyson Campbell",
+    "initials": "AC",
+    "eyebrow": "Chemical Engineering Portfolio",
+    "headline": "Engineering safer, smarter processes.",
+    "intro": "I’m a chemical engineer focused on turning complex process challenges into practical, data-driven solutions — from the first mass balance to the final field check.",
+    "location": "Houston, Texas",
+    "availability": "Open to opportunities",
+    "email": "addyson.campbell@example.com",
+    "linkedin": "https://www.linkedin.com/",
+    "resume": "/resume.pdf",
+    "about": "I’m motivated by the point where rigorous analysis meets real operations. My work spans process design, optimization, and safety, with an emphasis on communicating clearly across disciplines and delivering solutions that operators can trust.",
+    "education": "B.S. Chemical Engineering",
+    "school": "Your University",
+    "graduation": "2025"
+  },
+  "metrics": [
+    { "value": "12%", "label": "Throughput improvement" },
+    { "value": "$180K", "label": "Annual savings identified" },
+    { "value": "3", "label": "Process areas optimized" }
+  ],
+  "skills": [
+    { "group": "Process engineering", "items": ["Aspen Plus", "Process simulation", "PFDs & P&IDs", "Mass & energy balances"] },
+    { "group": "Analysis", "items": ["Python", "MATLAB", "Excel / VBA", "Statistical analysis"] },
+    { "group": "Safety & delivery", "items": ["HAZOP", "MOC", "Technical writing", "Cross-functional leadership"] }
+  ],
+  "items": [
+    {
+      "slug": "distillation-optimization",
+      "type": "Project",
+      "number": "01",
+      "title": "Distillation Column Optimization",
+      "summary": "Reworked column operating targets to reduce reboiler duty while maintaining product purity.",
+      "context": "Process Design · Senior Capstone",
+      "year": "2025",
+      "accent": "teal",
+      "tags": ["Aspen Plus", "Optimization", "Heat integration"],
+      "challenge": "An energy-intensive separation train was meeting product specification, but its high reflux ratio and reboiler duty created a significant operating cost penalty.",
+      "approach": ["Built and validated a steady-state Aspen Plus model against the available operating data.", "Ran sensitivity studies across reflux ratio, feed stage, and operating pressure.", "Compared opportunities using annualized utility cost and operability constraints."],
+      "outcome": "Identified an operating window with 14% lower modeled reboiler duty while preserving the required 99.5% product purity.",
+      "result": "14%",
+      "resultLabel": "modeled energy reduction"
+    },
+    {
+      "slug": "wastewater-recovery",
+      "type": "Experience",
+      "number": "02",
+      "title": "Wastewater Recovery Study",
+      "summary": "Evaluated water reuse opportunities and built the technical case for a high-value recovery project.",
+      "context": "Process Engineering Intern · Specialty Chemicals",
+      "year": "2024",
+      "accent": "blue",
+      "tags": ["Water treatment", "Techno-economics", "Data analysis"],
+      "challenge": "The site wanted to reduce freshwater demand without introducing quality or reliability risk to downstream process users.",
+      "approach": ["Mapped major water consumers and characterized wastewater sources using lab and historian data.", "Screened treatment options against quality requirements for each reuse destination.", "Developed capital, operating cost, and simple-payback estimates for the leading concept."],
+      "outcome": "Prioritized a recovery opportunity with the potential to avoid 8 million gallons of freshwater use per year and informed the site capital plan.",
+      "result": "8MM",
+      "resultLabel": "gallons/year reuse potential"
+    },
+    {
+      "slug": "reactor-safety-review",
+      "type": "Project",
+      "number": "03",
+      "title": "Reactor Safety Review",
+      "summary": "Led a structured hazard review for an exothermic batch reactor and translated findings into safeguards.",
+      "context": "Process Safety · Design Team",
+      "year": "2024",
+      "accent": "amber",
+      "tags": ["HAZOP", "Relief systems", "Risk assessment"],
+      "challenge": "A proposed scale-up increased reactant inventory and heat-removal demands, requiring a fresh review of credible deviations and protection layers.",
+      "approach": ["Facilitated node-by-node HAZOP discussions using process drawings and reaction data.", "Estimated worst-case heat generation and cooling-loss response.", "Ranked recommendations by risk reduction, feasibility, and implementation urgency."],
+      "outcome": "Delivered a prioritized safeguard plan covering independent high-temperature shutdown, charging controls, and relief-system verification.",
+      "result": "11",
+      "resultLabel": "actionable safeguards defined"
+    },
+    {
+      "slug": "production-data-dashboard",
+      "type": "Experience",
+      "number": "04",
+      "title": "Production Data Dashboard",
+      "summary": "Turned scattered operating data into a simple daily view of losses, constraints, and performance.",
+      "context": "Operations Co-op · Manufacturing",
+      "year": "2023",
+      "accent": "navy",
+      "tags": ["Python", "Data visualization", "Operations"],
+      "challenge": "Engineers spent hours reconciling multiple spreadsheets before they could identify the previous day’s biggest production losses.",
+      "approach": ["Interviewed operators and engineers to define the few metrics that drove daily decisions.", "Created a repeatable Python workflow to clean and aggregate source data.", "Designed a visual management dashboard and documented the update process."],
+      "outcome": "Reduced daily reporting time and gave the operations team a consistent fact base for morning production meetings.",
+      "result": "4 hrs",
+      "resultLabel": "saved in weekly reporting"
+    }
+  ]
+}
