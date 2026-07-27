@@ -1,11 +1,10 @@
 import Link from "next/link";
 import data from "@/data/portfolio.json";
 import { Icon } from "@/components/icons";
-import { ProcessGraphic } from "@/components/process-graphic";
 import { SiteHeader } from "@/components/site-header";
 
 export default function Home() {
-  const { profile, items, metrics, skills, leadership, credentials } = data;
+  const { profile, items, skills, leadership, credentials } = data;
   return <>
     <SiteHeader />
     <main>
@@ -17,7 +16,11 @@ export default function Home() {
           <div className="hero-actions"><a className="button primary" href="#work">Explore my work <Icon name="arrow"/></a><a className="button text-button" href={`mailto:${profile.email}`}>Get in touch <Icon name="arrow"/></a></div>
           <div className="status-row"><span className="status"><i/> {profile.availability}</span><span><Icon name="pin" size={16}/>{profile.location}</span></div>
         </div>
-        <div className="hero-art"><ProcessGraphic/><p>PROCESS THINKING <span>—</span> PRACTICAL IMPACT</p></div>
+        <div className="hero-art">
+          <div className="image-placeholder" role="img" aria-label="Portrait image placeholder">
+            <span>IMAGE PLACEHOLDER</span>
+          </div>
+        </div>
       </section>
 
       <section className="work section" id="work">
@@ -33,8 +36,6 @@ export default function Home() {
         <div className="about-intro"><p className="kicker">ABOUT ME</p><h2>Curious by nature.<br/><em>Rigorous by training.</em></h2></div>
         <div className="about-copy"><p>{profile.about}</p><div className="education"><span>{profile.graduation}</span><div><strong>{profile.education}</strong><small>{profile.school}</small><small>{profile.educationDetails}</small></div></div></div>
       </section>
-
-      <section className="metrics">{metrics.map(metric=><div key={metric.label}><strong>{metric.value}</strong><span>{metric.label}</span></div>)}</section>
 
       <section className="skills section" id="skills">
         <div className="section-heading"><div><p className="kicker">TOOLKIT</p><h2>Technical depth.<br/><em>Built for the field.</em></h2></div></div>
